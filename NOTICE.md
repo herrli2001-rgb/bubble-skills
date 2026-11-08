@@ -11,6 +11,10 @@
 | `skills/bubble-weekly-report` | 既有图文周报工作方法 | 重新实现本地 HTML/Markdown 输出；去掉企业模板、姓名、ERP、私人链接与历史授权 | 本公开实现 MIT |
 | `skills/bubble-product-images` | 既有电商参考图工作流的通用需求 | 重新编写工具无关入口和画廊脚本；不分发来源未核实的 OpenDesign 原文件 | 本公开实现 MIT |
 
+## xp视频导演skill
+
+新增 `skills/xp-video-director`：参考 Eian（@EianLu）的创作方法，发布独立整理的流程和本地辅助实现；不附文章全文、源视频、截图或原作者完整提示词。许可和验收范围见该目录的 NOTICE 与 README。
+
 ## 像素字体与运行依赖
 
 - 模板包含 Fusion Pixel 字体，保留其 OFL 及底层字体许可文件：`skills/bubble-pixel-video/assets/starter/public/fonts/`。

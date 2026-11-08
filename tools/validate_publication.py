@@ -9,6 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 EXPECTED = {
     "bubble-watch", "bubble-skill-creator", "bubble-pixel-video",
     "bubble-product-followup", "bubble-weekly-report", "bubble-product-images",
+    "xp-video-director",
 }
 PRIVATE_MARKERS = [
     r"/Users/[^/\s]+/(?:Documents|Pictures|Library)/",

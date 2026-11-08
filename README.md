@@ -1,6 +1,6 @@
 # Bubble Skills
 
-**bubble lxp** 的六个实用 Agent Skills：视频理解、技能制作、像素短片、电商新品跟进、图文周报与商品图。
+**bubble lxp** 的七个实用 Agent Skills：视频理解、技能制作、像素短片、电商新品跟进、图文周报、商品图与视频导演。
 
 一个懂点电商和金融的 AI 开发者。此仓库聚焦已经整理出来的工具与工作流；具体来源和改动见 [NOTICE.md](NOTICE.md)。
 
@@ -10,12 +10,13 @@
 |---|---|---|
 | [视频理解助手](skills/bubble-watch) | 提取视频画面和字幕，按时间点问答与总结 | Python、FFmpeg/ffprobe、yt-dlp；宿主需能看图片；转写可选 |
 | [技能制作助手](skills/bubble-skill-creator) | 中文引导创建技能、初始化目录、检查结构和辅助脚本 | Python + PyYAML；基于 Codex 随附 Skill Creator |
+| [xp视频导演skill](skills/xp-video-director) | 故事、分镜、首尾帧、Seedance 任务与成片复核 | Python、FFmpeg；另配生图与视频服务，未验收真实付费生成 |
 | [像素短视频工坊](skills/bubble-pixel-video) | 自带 Remotion 工程，交付短片和横竖封面 | Node、npm、可用浏览器；字体许可已保留 |
 | [电商新品跟进助手](skills/bubble-product-followup) | 报价整理、精确定价、旧价差异清单 | Python；实际定价规则由使用者提供 |
 | [图文周报助手](skills/bubble-weekly-report) | 根据事实与证据生成本地 HTML/Markdown 周报 | Python；真实工作记录与适合交付的图片 |
 | [电商商品图助手](skills/bubble-product-images) | 引导制作主图/卖点图/场景图，打包本地审核画廊 | 支持参考图的生图工具；Python 用于画廊 |
 
-**公开预览版 v0.1.0。** 不附带模型、账号或付费 API 额度。新品跟进不含平台自动改价/上架适配器；周报不自动访问企业文档；商品图脚本只整理实际生成的图片，不自行调用生图服务。
+**公开预览版 v0.1.1。** 不附带模型、账号或付费 API 额度。新品跟进不含平台自动改价/上架适配器；周报不自动访问企业文档；商品图脚本只整理实际生成的图片，不自行调用生图服务。
 
 ## 安装
 
@@ -32,11 +33,11 @@ Windows 将 `python3` 替换为 `python`。安装器默认复制到当前用户�
 
 ```sh
 python3 tools/install.py --skill bubble-weekly-report --dest /path/to/host/skills
-# 安装全部六项
+# 安装全部七项
 python3 tools/install.py --all
 ```
 
-在宿主重新加载技能后，用 `$bubble-watch` 等技能名调用。可以按需手动复制单个 `skills/bubble-*` 目录；不必安装全部依赖。每项说明中的仓库命令从仓库根目录运行，安装后按实际技能目录定位脚本。
+在宿主重新加载技能后，用 `$bubble-watch` 等技能名调用。可以按需手动复制`skills/` 下的单个技能目录；不必安装全部依赖。每项说明中的仓库命令从仓库根目录运行，安装后按实际技能目录定位脚本。
 
 ## 快速运行示例
 

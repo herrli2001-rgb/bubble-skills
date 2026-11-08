@@ -316,6 +316,41 @@
       "skill": "bubble-pixel-video",
       "path": "assets/starter/public/fonts/licenses/LICENSES/galmuri/LICENSE.txt",
       "sha256": "86a3ee9495f942f0243f18c103da9faca27adb88142613edb8bb852e56c892c1"
+    },
+    {
+      "skill": "xp-video-director",
+      "path": "SKILL.md",
+      "sha256": "63ddaddbd43694e8b123400aaf6907b9980dffe3e14b9e9a59aa0252f9927acd"
+    },
+    {
+      "skill": "xp-video-director",
+      "path": "agents/openai.yaml",
+      "sha256": "a8dd0d84be3c2998864d9f15eb2306e5f88fc293b947da839c0ee6f2b22ea693"
+    },
+    {
+      "skill": "xp-video-director",
+      "path": "scripts/seedance.py",
+      "sha256": "310f5f8f92d63f033eea9dadc93c2a64d9e50c9f25c8ef5a368e20bfc3ce1b68"
+    },
+    {
+      "skill": "xp-video-director",
+      "path": "scripts/video_tools.py",
+      "sha256": "dacf15600b04067f8160b0572216d9b43bf21a4c8782c9a1c01d45b5b0de1855"
+    },
+    {
+      "skill": "xp-video-director",
+      "path": "references/production.md",
+      "sha256": "d753c62fc1a8d3659514e6d4aa324211775fed5bff25fd795120609fa5796d2f"
+    },
+    {
+      "skill": "xp-video-director",
+      "path": "references/review.md",
+      "sha256": "75616a9cd6fcc23f437ef24c7cf163c445370a61f29a5047ba4926346a699ff1"
+    },
+    {
+      "skill": "xp-video-director",
+      "path": "references/seedance.md",
+      "sha256": "a5e023a8c3c0cd768ebd242953f991d70f64ca9e6b002d1dcd964d599af18390"
     }
   ]
 }

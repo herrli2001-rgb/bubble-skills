@@ -1,0 +1,4 @@
+interface:
+  display_name: "xp视频导演skill"
+  short_description: "从想法到AI成片，统筹剧本分镜、首尾帧、视频生成与后期审核"
+  default_prompt: "使用 $xp-video-director，把我的想法或参考片做成一支AI短片，并沿用已给出的时长、风格和预算要求。"

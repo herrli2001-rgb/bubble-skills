@@ -115,11 +115,11 @@ class PublicSkillTests(unittest.TestCase):
         result = subprocess.run([sys.executable, str(scripts / "init_skill.py"), "example-workflow", "--path", str(self.work / "技能目录")], capture_output=True, text=True, encoding="utf-8")
         self.assertNotEqual(result.returncode, 0)
 
-    def test_installer_copies_six_skills_and_refuses_overwrite(self):
+    def test_installer_copies_all_skills_and_refuses_overwrite(self):
         command = [sys.executable, str(ROOT / "tools/install.py"), "--all", "--dest", str(self.work / "installed")]
         result = subprocess.run(command, capture_output=True, text=True, encoding="utf-8")
         self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertEqual(len(list((self.work / "installed").glob("*/SKILL.md"))), 6)
+        self.assertEqual(len(list((self.work / "installed").glob("*/SKILL.md"))), 7)
         result = subprocess.run(command, capture_output=True, text=True, encoding="utf-8")
         self.assertNotEqual(result.returncode, 0)
 
