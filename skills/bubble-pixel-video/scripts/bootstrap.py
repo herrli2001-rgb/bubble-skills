@@ -30,16 +30,19 @@ def main():
     source = Path(__file__).resolve().parents[1] / 'assets/starter'
     shutil.copytree(source, dest)
     config_path = dest / 'src/project.json'
-    config = json.loads(config_path.read_text())
+    config = json.loads(config_path.read_text(encoding="utf-8"))
     config.update({'theme': args.theme, **titles})
-    config_path.write_text(json.dumps(config, ensure_ascii=False, indent=2) + '\n')
+    config_path.write_text(json.dumps(config, ensure_ascii=False, indent=2) + '\n', encoding="utf-8")
     (dest/'brief.json').write_text(json.dumps({
         'theme': args.theme,
         'status': 'Starter initialized; replace sample scene narration, thoughts, pressure lines, actors and props before final delivery.',
         'deliverables': ['out/video.mp4','out/cover-landscape.png','out/cover-portrait.png'],
         'cover_in_video': False,
-    }, ensure_ascii=False, indent=2)+'\n')
+    }, ensure_ascii=False, indent=2)+'\n', encoding="utf-8")
     print(json.dumps({'project':str(dest),'next':'Adapt the sample content, npm ci, generate or add audio, npm run lint, npm run render:all.'},ensure_ascii=False))
 
 if __name__ == '__main__':
+    import sys
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
     main()

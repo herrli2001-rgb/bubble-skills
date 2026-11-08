@@ -21,8 +21,8 @@ def main():
     args=parser.parse_args()
     root=args.project.expanduser().resolve()
     config_path=root/'src/project.json'
-    config=json.loads(config_path.read_text())
-    script=(root/'src/intro/script.ts').read_text()
+    config=json.loads(config_path.read_text(encoding="utf-8"))
+    script=(root/'src/intro/script.ts').read_text(encoding="utf-8")
     source_frames={name:int(duration) for name,duration in re.findall(r'(\w+):\s*\{[^{}]*?duration:\s*(\d+)',script)}
     cursor=0; cues=[]
     for index,scene in enumerate(config['scenes']):
@@ -62,9 +62,9 @@ def main():
     write_wave(root/'public/audio/original-pixel.wav',music,sr)
     write_wave(root/'public/audio/transition-foley.wav',foley,sr)
     config['musicFile']='audio/original-pixel.wav';config['foleyFile']='audio/transition-foley.wav'
-    config_path.write_text(json.dumps(config,ensure_ascii=False,indent=2)+'\n')
+    config_path.write_text(json.dumps(config,ensure_ascii=False,indent=2)+'\n', encoding="utf-8")
     meta={'method':'Original procedural sine harmonics, seed-stable swishes, no external samples','frames':cursor,'duration_seconds':duration,'rate':sr,'cue_frames':[f for f,_ in cues],'sample_peak':max(abs(v) for v in music),'title':'Soft pixel study'}
-    (root/'public/audio/provenance.json').write_text(json.dumps(meta,indent=2)+'\n')
+    (root/'public/audio/provenance.json').write_text(json.dumps(meta,indent=2)+'\n', encoding="utf-8")
     print(json.dumps(meta))
 
 if __name__=='__main__': main()
