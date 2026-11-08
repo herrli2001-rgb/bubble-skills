@@ -2,6 +2,7 @@
 import csv
 import importlib.util
 import json
+import os
 from pathlib import Path
 import shutil
 import struct
@@ -104,11 +105,12 @@ class PublicSkillTests(unittest.TestCase):
 
     def test_creator_initializes_and_validates_real_skill(self):
         scripts = ROOT / "skills/bubble-skill-creator/scripts"
-        result = subprocess.run([sys.executable, str(scripts / "init_skill.py"), "example-workflow", "--path", str(self.work / "技能目录")], capture_output=True, text=True, encoding="utf-8")
+        legacy_console = dict(os.environ, PYTHONIOENCODING="cp1252")
+        result = subprocess.run([sys.executable, str(scripts / "init_skill.py"), "example-workflow", "--path", str(self.work / "技能目录")], capture_output=True, text=True, encoding="utf-8", env=legacy_console)
         self.assertEqual(result.returncode, 0, result.stderr)
         skill = self.work / "技能目录/example-workflow/SKILL.md"
         skill.write_text('---\nname: example-workflow\ndescription: 将用户提供的本地记录整理成有证据的汇总表。\n---\n\n# Example workflow\n\nRead the supplied records and preserve their source references.\n', encoding="utf-8")
-        result = subprocess.run([sys.executable, str(scripts / "quick_validate.py"), str(skill.parent)], capture_output=True, text=True, encoding="utf-8")
+        result = subprocess.run([sys.executable, str(scripts / "quick_validate.py"), str(skill.parent)], capture_output=True, text=True, encoding="utf-8", env=legacy_console)
         self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
         result = subprocess.run([sys.executable, str(scripts / "init_skill.py"), "example-workflow", "--path", str(self.work / "技能目录")], capture_output=True, text=True, encoding="utf-8")
         self.assertNotEqual(result.returncode, 0)
