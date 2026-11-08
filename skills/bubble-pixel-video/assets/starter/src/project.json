@@ -1,0 +1,14 @@
+{
+  "theme": "人生的容错率（可替换示例）",
+  "landscapeTitleLines": ["人生的容错率", "到底有多少"],
+  "portraitTitleLines": ["人生的容错率", "到底有多少"],
+  "musicFile": null,
+  "foleyFile": null,
+  "musicVolume": 1,
+  "scenes": [
+    {"id": "parents", "playbackRate": 1.5, "transitionAfter": "paper", "transitionFrames": 16},
+    {"id": "dorm", "playbackRate": 2.1, "transitionAfter": "screen", "transitionFrames": 16},
+    {"id": "office", "playbackRate": 2.1, "transitionAfter": "carton", "transitionFrames": 16},
+    {"id": "relatives", "playbackRate": 1.5, "transitionAfter": "carton", "transitionFrames": 16}
+  ]
+}

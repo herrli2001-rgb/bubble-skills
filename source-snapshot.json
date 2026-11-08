@@ -1,0 +1,321 @@
+{
+  "snapshot_date": "2026-11-08",
+  "description": "Hashes of copied source files before public packaging edits. Source directories and personal configuration are not included.",
+  "files": [
+    {
+      "skill": "bubble-watch",
+      "path": "SKILL.md",
+      "sha256": "10dc8e56699e99a97f9b29c25881a3b3d94873d42ee6a2b6a84fef4ead6927b2"
+    },
+    {
+      "skill": "bubble-watch",
+      "path": "scripts/config.py",
+      "sha256": "a672f1b3b888ee90b696a2acd7ccba46556eeb7978be4a0cf205e0a7963e5140"
+    },
+    {
+      "skill": "bubble-watch",
+      "path": "scripts/download.py",
+      "sha256": "e3db8c8418a0372a533fedaf6c4481c5859849c81279e0f6cb139e4055081f91"
+    },
+    {
+      "skill": "bubble-watch",
+      "path": "scripts/whisper.py",
+      "sha256": "4845e95d7467b1d4d393275a9d8fadda07d34c9822d6cee0b7ebebcfd70e1462"
+    },
+    {
+      "skill": "bubble-watch",
+      "path": "scripts/setup.py",
+      "sha256": "c8d2906fc4e8047c9d4006ac37572be5cbd0ae6ed11380743283e877564406b1"
+    },
+    {
+      "skill": "bubble-watch",
+      "path": "scripts/frames.py",
+      "sha256": "ec77c58e38ac205900ca07ab48f5c32889cb95c029aaddeb691d050b93514c0c"
+    },
+    {
+      "skill": "bubble-watch",
+      "path": "scripts/transcribe.py",
+      "sha256": "f9736e126d3f3c41d72cceed75e50b7bdeb0f8a9bdafe5bdbdd8592ea8af7ab6"
+    },
+    {
+      "skill": "bubble-watch",
+      "path": "scripts/watch.py",
+      "sha256": "22a617de949781067ba22d90b64355231cf09c92b3a144ee9c3a5e26f0062e3a"
+    },
+    {
+      "skill": "bubble-skill-creator",
+      "path": "SKILL.md",
+      "sha256": "6656e54755638e8efcf275a472b9672eaa8a9a1b9e59dc210e275b03b59e1e66"
+    },
+    {
+      "skill": "bubble-skill-creator",
+      "path": "license.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "skill": "bubble-skill-creator",
+      "path": "references/openai_yaml.md",
+      "sha256": "ffac39318e408108141d40f820968e59f70434a891694f9bf1d25be8237b150c"
+    },
+    {
+      "skill": "bubble-skill-creator",
+      "path": "agents/openai.yaml",
+      "sha256": "d07d21b93fcf3d4dc8d9a3399c05fc226a49a333a96d3e1c68b451b8dd9eade6"
+    },
+    {
+      "skill": "bubble-skill-creator",
+      "path": "scripts/init_skill.py",
+      "sha256": "bf0656a5f9d8d8cdecf0245eaf27e1df8e0e9b6d40ccdda814eb8e3d5f6992c8"
+    },
+    {
+      "skill": "bubble-skill-creator",
+      "path": "scripts/quick_validate.py",
+      "sha256": "ee6dba90f44d37171c5a6edb8095979c54919ff6822c1a907afca2e78c48738c"
+    },
+    {
+      "skill": "bubble-skill-creator",
+      "path": "scripts/generate_openai_yaml.py",
+      "sha256": "816df12072d74faf924d802a6599a139997e1441e90bfe4869ec304f2e5e2851"
+    },
+    {
+      "skill": "bubble-skill-creator",
+      "path": "assets/skill-creator-small.svg",
+      "sha256": "6591bf8ea9bb9435890dbdea299e0d2bd05f3aa893a335d26e4c535e93c8e7fb"
+    },
+    {
+      "skill": "bubble-skill-creator",
+      "path": "assets/skill-creator.png",
+      "sha256": "a4024b0306ddb05847e1012879d37aaf1e658205199da596f5145ed7a88d9162"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "SKILL.md",
+      "sha256": "0ea77fb24415c96b1b8b9b793452fd6858a1fbbc465d3270d1a04c049bf82529"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "references/covers.md",
+      "sha256": "9c20768f779ca5be24206d05d5b38191350237de1d8a73288ec9ba86db56c4e1"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "references/video.md",
+      "sha256": "d6c43c0d3bb9be9121289e9f3733eb7a89e39374664b81adec5a8cedf920faf1"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "references/project.md",
+      "sha256": "61be6bf5ba3d394cf9e677ad63e454da1f024b3f36df418abb1ebe3fec782c24"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "agents/openai.yaml",
+      "sha256": "6ad4f10ea9f2f8facc6c5fd17e3c0f3e363a25dc33484e1fde2bb2aa7c2886df"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "scripts/bootstrap.py",
+      "sha256": "1d9d490ac5c00bdd9d447a6e9d49428d33c3922d35a8c1a6c249705ff0ee71a8"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "scripts/make-original-audio.py",
+      "sha256": "77c750df13e662d870a79ceae754d77da60e916546b04870e59177dd03e082c9"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "assets/starter/package-lock.json",
+      "sha256": "c2a09be99261f678f23929c7e5954284c418147bde37e607b898cfbe077aa82e"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "assets/starter/package.json",
+      "sha256": "bbedd126345aa6601387a4f0fb3474477b2a03708f0fce26f367bc32ac51bb4e"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "assets/starter/tsconfig.json",
+      "sha256": "da6e689fb2eb401a2dba9e93983c2173da0fd2ee7333875cb62e259a80aa6121"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "assets/starter/remotion.config.ts",
+      "sha256": "7263a49e95678f1e324edb560647cb1e60be26033b1210b196f966977dac76db"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "assets/starter/eslint.config.mjs",
+      "sha256": "7f2ca640409fd597965bedf929073b9a74f143643e1711150c4cac3b6ec5c80d"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "assets/reference/front-20s-silent.mp4",
+      "sha256": "0c9c346f0ebfbe44497a331f22a573723b1df3f532a118cd487da0bb7a418ed6"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "assets/reference/landscape.png",
+      "sha256": "9f7f837fadd8d7724d479a8f6bef2fa04ea8672e2a67531fd75f4f1490edb109"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "assets/reference/portrait.png",
+      "sha256": "75c1120a39e8c44045885539ce381f3c36679600e6e24a4c4af3d1ff1768b65d"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "assets/reference/indoor-contact.png",
+      "sha256": "9db635bb8e5683464ba5ac5805370cc893fe990466f9a9fe5de88abf605f8236"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "assets/starter/src/project.ts",
+      "sha256": "8d619aaac18d66fd2b2ebe5afcca9fb29764b1b27126d84039791dacbddefa80"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "assets/starter/src/project.json",
+      "sha256": "1fbc1f26b21fdfc95118e98e0a5bd6a5ca5eca76cfc9034b8f8dd3da19768df9"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "assets/starter/src/Root.tsx",
+      "sha256": "8f899b9c1111b126643d5f0385017a5b3d679d685a5c7a07a0f1785719220a45"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "assets/starter/src/Film.tsx",
+      "sha256": "e53741ce697e1b0499ed0627879ed858c1cc68317b4c946ced4ae19e4e3657f9"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "assets/starter/src/index.ts",
+      "sha256": "957e481dd33a29b4a55ae0e95dbf763b7e48c37c427ca4bd1275faf34bc07a74"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "assets/starter/src/world.ts",
+      "sha256": "7bdbf73a3c1c12cc0d0281f7137a070d9f377f2ef25a4303ad069f2670dbbe56"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "assets/starter/src/intro/PressureVoices.tsx",
+      "sha256": "0cfba8965986d793a39972ce873132eab7b800817ab3a3627a4d9cdfde8e8e1b"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "assets/starter/src/intro/DormScene.tsx",
+      "sha256": "c6601fc80ff47b0f44981468af4478aaa653adf3da87c3023b336242ece5821d"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "assets/starter/src/intro/ParentsPressure.tsx",
+      "sha256": "c89e7aa2f79dfb1d864a35027cf8cbc6df6525d778e90829caf1b85801203bfd"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "assets/starter/src/intro/bedroom.ts",
+      "sha256": "774398a22a61ba1fc43c6efeff545c71c0e65cebddcdb2deadf26b483adf08ba"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "assets/starter/src/intro/script.ts",
+      "sha256": "4648ba50b1d1f02a9bb7e0b208ce981b8b9c6da3b3f8c25a546802f6e89ef855"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "assets/starter/src/intro/actors.ts",
+      "sha256": "d8c60618efa893a79e3a5ba9d0c1e3b79c27fc630e3389568468e0c7c41e3789"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "assets/starter/src/intro/ParentsScene.tsx",
+      "sha256": "7df8a1ca8dd0ce3bfef2f46a2416e4eea219e0dc545cb3b330386da2654c992f"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "assets/starter/src/intro/RelativesScene.tsx",
+      "sha256": "51f57a190c3086c22f2120711d9071a60a95034f46cf91f4aafc29708977bf9e"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "assets/starter/src/intro/dorm.ts",
+      "sha256": "cf25672ba4ef96b682d74efe3ebec8c60160e55ca38fe6ab4af27299eb8517f4"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "assets/starter/src/intro/MaterialTransition.tsx",
+      "sha256": "26dc3a22e258f49e0c972656e41a370563ad8be90b4fbae544ad9a01ec8f07a8"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "assets/starter/src/intro/Cover.tsx",
+      "sha256": "36f3e6289c2bbaa706f1c695bd4f40875a225cba68d3cb58e5f16f3e841f42cc"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "assets/starter/src/intro/BedroomScene.tsx",
+      "sha256": "0757f2a882768870cd835bca8dd6628bbea3eef33e96188b9060aa83e54d7eb0"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "assets/starter/src/intro/living.ts",
+      "sha256": "9d92bac38a58b101678b7e05e29af8c4f7c2a9c6299c5e3df61f1275b74c8b4b"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "assets/starter/src/intro/PortraitCover.tsx",
+      "sha256": "fc3e88e69f12cc1ab1468f4e8a9cf1f99ba3f4ce55b6cabbc8fc057822147665"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "assets/starter/src/intro/SceneRenderer.tsx",
+      "sha256": "f94ef33bd5baabed58e7774311440d2f41aad638550194a0a276e509af6cc300"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "assets/starter/src/intro/OfficeScene.tsx",
+      "sha256": "424a08b27c37caf2524d5c4de49b30a860f762190caf7d20732cc51440c13107"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "assets/starter/src/intro/office.ts",
+      "sha256": "61a9cd019d35746099ca0249b0b5fbfe7c712c3ea382fc66a8e11515d90c5687"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "assets/starter/public/fonts/OFL.txt",
+      "sha256": "2b6e5938e5cffa0b9e183bd05f8c363e174e7ebed1a0556e2855fd1707fa2188"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "assets/starter/public/fonts/LICENSE.txt",
+      "sha256": "86a3ee9495f942f0243f18c103da9faca27adb88142613edb8bb852e56c892c1"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "assets/starter/public/fonts/fusion-pixel-12px-monospaced-zh_hans.ttf.woff2",
+      "sha256": "98c7ed82008f59978730054b2682d595584f42a166ee5c8503d266b6b63299b0"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "assets/starter/public/fonts/licenses/OFL.txt",
+      "sha256": "bc518cf64b8032c07690f33cc270c35c179255a6ac8efa7c165ebae7e8f76a63"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "assets/starter/public/fonts/licenses/LICENSES/cubic-11/OFL.txt",
+      "sha256": "2b6e5938e5cffa0b9e183bd05f8c363e174e7ebed1a0556e2855fd1707fa2188"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "assets/starter/public/fonts/licenses/LICENSES/ark-pixel/OFL.txt",
+      "sha256": "3ab41567e68e3988ba1ef16dd2644eca95ca5648ea12e7d46e6287fc0bbe5aee"
+    },
+    {
+      "skill": "bubble-pixel-video",
+      "path": "assets/starter/public/fonts/licenses/LICENSES/galmuri/LICENSE.txt",
+      "sha256": "86a3ee9495f942f0243f18c103da9faca27adb88142613edb8bb852e56c892c1"
+    }
+  ]
+}

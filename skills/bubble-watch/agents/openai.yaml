@@ -1,0 +1,3 @@
+interface:
+  display_name: "视频理解助手"
+  short_description: "按画面和字幕理解视频并定位关键时间点"

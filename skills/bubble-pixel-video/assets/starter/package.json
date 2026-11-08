@@ -1,0 +1,43 @@
+{
+  "name": "bubble-pixel-video-starter",
+  "version": "1.0.0",
+  "description": "Reusable pixel film with independent landscape and portrait covers",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/herrli2001-rgb/bubble-skills.git",
+    "directory": "skills/bubble-pixel-video/assets/starter"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "^20.19.0 || ^22.13.0 || >=24"
+  },
+  "private": true,
+  "dependencies": {
+    "@remotion/cli": "4.0.536",
+    "@remotion/fonts": "4.0.536",
+    "@remotion/media": "4.0.536",
+    "@remotion/transitions": "4.0.536",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.536"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.536",
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "eslint": "10.12.0",
+    "prettier": "3.8.1",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "dev": "remotion studio",
+    "lint": "eslint src && tsc",
+    "render:video": "remotion render PixelFilm out/video.mp4 --codec=h264 --crf=16 --pixel-format=yuv420p --concurrency=2",
+    "render:landscape": "remotion still PixelCoverLandscape out/cover-landscape.png",
+    "render:portrait": "remotion still PixelCoverPortrait out/cover-portrait.png",
+    "render:all": "npm run render:video && npm run render:landscape && npm run render:portrait"
+  },
+  "allowScripts": {
+    "esbuild": false
+  }
+}

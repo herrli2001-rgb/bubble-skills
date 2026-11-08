@@ -1,0 +1,9 @@
+{
+  "product": "替换为你的商品名称",
+  "references": [{"path": "reference.png", "label": "用户提供的实物参考图"}],
+  "outputs": [
+    {"slot": "main", "path": "main.png", "caption": "待核对商品形状、颜色、包装和文字。", "prompt_summary": "干净背景主图"},
+    {"slot": "feature", "path": "feature.png", "caption": "卖点必须有用户提供的事实依据。", "prompt_summary": "商品细节图"},
+    {"slot": "lifestyle", "path": "lifestyle.png", "caption": "待核对使用场景和商品比例。", "prompt_summary": "真实使用场景"}
+  ]
+}

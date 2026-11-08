@@ -1,0 +1,3 @@
+interface:
+  display_name: "图文周报助手"
+  short_description: "根据真实工作记录生成图文周报"
